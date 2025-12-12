@@ -8,32 +8,69 @@ Una sección de tu música favorita con una lista ordenada con tu top 5 de canci
 de la lista debe tener un hipervínculo que dirija a la canción en Youtube. -->
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Acerca de mi</title>
-    <header>Ricardo Millán</header>
-    <img src="/Img/Emperador Log.jpg" alt="Un Emperador de los logs" width="350" height="350">.
-    <p>Ricardo es un ingeniero en sistemas de 29 años, nacido en CDMX. Desde joven se interesó por la
-        tecnología y la programación, lo que lo llevó a estudiar Ingeniería en Sistemas en la Universidad.
-        Tras graduarse, se mudó a Tolca, donde trabajó en una startup de inteligencia artificial, ascendiendo
-        rápidamente a jefe de desarrollo de productos.
-
-        Apasionado por la tecnología y el impacto social, Ricardo también dedica tiempo a promover la igualdad de género
-        y la sostenibilidad en su industria. En su tiempo libre, disfruta jugando videojuegos y viajando, siendo Italia
-        uno de sus destinos favoritos.
-    </p>
-
-
-
-
-
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Acerca de mí</title>
 </head>
 
-<body>
+<body style="background-color: black; color: skyblue">
+  <header>
+    <!-- Encabezado principal del documento -->
+    <h1>Emperador Log</h1>
+  </header>
 
+  <main>
+    <!-- Foto favorita -->
+    <figure>
+      <img src="/Img/Emperador Log.jpg" alt="Foto de Emperador Log" width="350" height="350">
+      <figcaption>Mi foto favorita</figcaption>
+    </figure>
+
+    <!-- Breve biografía -->
+    <section aria-labelledby="biografia">
+      <h2 id="biografia">Biografía</h2>
+      <p>
+        El Emperador Log es un ingeniero en sistemas de 29 años, nacido en CDMX. Desde joven se interesó por la
+        tecnología y la programación, lo que lo llevó a estudiar Ingeniería en Sistemas. Tras graduarse, se mudó a Toluca,
+        donde trabajó en una startup de inteligencia artificial y llegó a ser jefe de desarrollo de productos.
+      </p>
+      <p>
+        Apasionado por la tecnología y el impacto social, también dedica tiempo a promover la igualdad de género
+        y la sostenibilidad en la industria. En su tiempo libre disfruta de los videojuegos y viajar; Italia es uno
+        de sus destinos favoritos.
+      </p>
+    </section>
+
+    <!-- Hobbies -->
+    <section aria-labelledby="hobbies">
+      <h2 id="hobbies">Hobbies</h2>
+      <ul>
+        <li>Jugar videojuegos</li>
+        <li>Viajar</li>
+        <li>Leer sobre tecnología</li>
+        <li>Fotografía</li>
+      </ul>
+    </section>
+
+    <!-- Música favorita con top 5 -->
+    <section aria-labelledby="musica">
+      <h2 id="musica">Mi música favorita (Top 5 del momento)</h2>
+      <ol>
+        <li><a href="https://www.youtube.com/watch?v=3JZ4pnNtyxQ" target="_blank" rel="noopener">Blinding Lights — The Weeknd</a></li>
+        <li><a href="https://www.youtube.com/watch?v=JGwWNGJdvx8" target="_blank" rel="noopener">Shape of You — Ed Sheeran</a></li>
+        <li><a href="https://www.youtube.com/watch?v=09R8_2nJtjg" target="_blank" rel="noopener">See You Again — Wiz Khalifa ft. Charlie Puth</a></li>
+        <li><a href="https://www.youtube.com/watch?v=kJQP7kiw5Fk" target="_blank" rel="noopener">Despacito — Luis Fonsi ft. Daddy Yankee</a></li>
+        <li><a href="https://www.youtube.com/watch?v=fRh_vgS2dFE" target="_blank" rel="noopener">Uptown Funk — Mark Ronson ft. Bruno Mars</a></li>
+      </ol>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Emperador Log</p>
+  </footer>
 </body>
 
 </html>
