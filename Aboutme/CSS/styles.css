@@ -6,3 +6,29 @@
   --color-de-acento: #00072d;
 }
 
+body {
+  background-color: var(--color-de-fondo);
+  color: var(--color-de-texto);
+  font-family: "Lilex", monospace;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2 {
+  font-family: "Lilex", monospace;
+  color: var(--color-principal);
+  letter-spacing: 0.1rem;
+}
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  margin: 2rem 0;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
