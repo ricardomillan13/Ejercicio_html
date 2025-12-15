@@ -90,3 +90,21 @@ a:hover {
   color: var(--color-de-acento);
   text-decoration: underline;
 }
+footer {
+  text-align: center;
+  padding: 1.5rem;
+  font-size: 0.8rem;
+  color: var(--color-secundario);
+  border-top: 1px solid var(--color-secundario);
+}
+
+p {
+  margin-bottom: 1.2em;
+}
+
+section:hover {
+  background-color: rgba(79, 163, 199, 0.05);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s ease;
+}
